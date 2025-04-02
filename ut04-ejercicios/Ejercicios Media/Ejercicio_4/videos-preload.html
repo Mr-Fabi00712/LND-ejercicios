@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Preload</title>
+</head>
+<body>
+    <h1>Video con preload: metadata</h1>
+    <video controls preload="metadata">
+        <source src="file_example_MP4_480_1_5MG.mp4" type="video/mp4">
+        Tu navegador no soporta el elemento de video.
+    </video>
+
+    <p>El atributo <code>preload</code> tiene el valor <code>metadata</code>, lo que significa que solo se descargará la información del video (como la duración y los metadatos), pero no se descargará el video completo antes de que se inicie la reproducción.</p>
+    
+    <h2>Otros valores posibles de <code>preload</code>:</h2>
+    <ul>
+        <li><strong>auto:</strong> El navegador intentará cargar el video completo tan pronto como sea posible, incluso antes de que el usuario haga clic en el botón de reproducción. Esto asegura que el video esté listo para reproducirse de inmediato.</li>
+        <li><strong>none:</strong> El navegador no pre-cargará nada. Solo se descargará el video cuando el usuario lo reproduzca, lo que ahorra ancho de banda pero puede causar un pequeño retraso cuando se inicia la reproducción.</li>
+    </ul>
+
+    <h3>Comportamiento de cada valor:</h3>
+    <p><strong>preload="auto":</strong> El video se descargará completamente tan pronto como la página se cargue. Esto es útil si quieres asegurar que el video esté completamente disponible para reproducirse sin interrupciones.</p>
+    <p><strong>preload="metadata":</strong> Solo se descargan los metadatos (como duración, dimensiones) para mostrar una vista previa y preparar el video, pero no se descarga el contenido completo del video.</p>
+    <p><strong>preload="none":</strong> El video no se descargará de inmediato. Solo se descargará cuando el usuario presione el botón de reproducción, lo que es ideal si no quieres que el video use ancho de banda innecesario hasta que sea necesario.</p>
+</body>
+</html>

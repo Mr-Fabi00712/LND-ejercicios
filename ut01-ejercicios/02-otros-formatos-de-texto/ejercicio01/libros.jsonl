@@ -1,0 +1,82 @@
+[
+    {
+        "ID": 1,
+        "Nombre" : "Cien años de soledad",
+        "Autor" : "Gabriel García Márquez",
+        "Fecha": "1967",
+        "Categoria": "Novela"
+
+    },
+    {
+        "ID": 2,
+        "Nombre" : "Don Quijote de la Mancha",
+        "Autor" : "Miguel de Cervantes",
+        "Fecha": "1605",
+        "Categoria": "Clásico"
+
+    },
+    {
+        "ID": 3,
+        "Nombre" : "El amor en los tiempos del cólera",
+        "Autor" : "Gabriel García Márquez",
+        "Fecha": "1985",
+        "Categoria": "Romance"
+
+    },
+    {
+        "ID": 4,
+       "Nombre" : "La sombra del viento",
+        "Autor" : "Carlos Ruiz Zafón",
+        "Fecha": "2001",
+        "Categoria": "Misterio"
+
+    },
+    {
+        "ID": 5,
+        "Nombre" : "Crónica de una muerte anunciada",
+        "Autor" : "Gabriel García Márquez",
+        "Fecha": "1981",
+        "Categoria": "Crimen"
+
+    },
+    {
+        "ID": 6,
+        "Nombre" : "Los pilares de la tierra",
+        "Autor" : "Ken Follett",
+        "Fecha": "1989",
+        "Categoria": "Histórico"
+    },
+    {
+        "ID": 7,
+        "Nombre" : "El principito",
+        "Autor" : "Antoine de Saint-Exupéry",
+        "Fecha": "1943",
+        "Categoria": "Fábula"
+
+    },
+    {
+        "ID": 8,
+        "Nombre" : "1984",
+        "Autor" : "George Orwell",
+        "Fecha": "1949",
+        "Categoria": "Distopía"
+
+    },
+    {
+        "ID": 9,
+        "Nombre" : "El nombre de la rosa",
+        "Autor" : "Umberto Eco",
+        "Fecha": "1980",
+        "Categoria": "Misterio Histórico"
+
+    },
+    {
+        "ID": 10,
+        "Nombre" : "Rayuela",
+        "Autor" : "Julio Cortázar",
+        "Fecha": "1963",
+        "Categoria": "Novela"
+
+    }
+]
+

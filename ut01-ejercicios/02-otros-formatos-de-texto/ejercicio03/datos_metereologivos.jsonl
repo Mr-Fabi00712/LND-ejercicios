@@ -1,0 +1,89 @@
+[
+    {
+        "ID": 1,
+        "Ciudad" : "Madrid",
+        "Temperatura (°C)" : "22",
+        "Humedad (%)": "45",
+        "Viento (km/h)": "15",
+        "Estado del Tiempo": "Soleado"
+
+    },
+    {
+        "ID": 2,
+        "Ciudad" : "Barcelona",
+        "Temperatura (°C)" : "20",
+        "Humedad (%)": "60",
+        "Viento (km/h)": "10",
+        "Estado del Tiempo": "Parcialmente nublado"
+
+    },
+    {
+        "ID": 3,
+        "Ciudad" : "Sevilla",
+        "Temperatura (°C)" : "28",
+        "Humedad (%)": "35",
+        "Viento (km/h)": "20",
+        "Estado del Tiempo": "Soleado"
+
+    },
+    {
+        "ID": 4,
+        "Ciudad" : "Valencia",
+        "Temperatura (°C)" : "24",
+        "Humedad (%)": "50",
+        "Viento (km/h)": "12",
+        "Estado del Tiempo": "Nublado"
+
+    },
+    {
+        "ID": 5,
+        "Ciudad" : "Bilbao",
+        "Temperatura (°C)" : "18",
+        "Humedad (%)": "70",
+        "Viento (km/h)": "8",
+        "Estado del Tiempo": "Lluvia ligera"
+    },
+    {
+        "ID": 6,
+        "Ciudad" : "Málaga",
+        "Temperatura (°C)" : "26",
+        "Humedad (%)": "55",
+        "Viento (km/h)": "18",
+        "Estado del Tiempo": "Soleado"
+    },
+    {
+        "ID": 7,
+        "Ciudad" : "Zaragoza",
+        "Temperatura (°C)" : "21",
+        "Humedad (%)": "40",
+        "Viento (km/h)": "14",
+        "Estado del Tiempo": "Soleado"
+
+    },
+    {
+        "ID": 8,
+        "Ciudad" : "La Coruña",
+        "Temperatura (°C)" : "17",
+        "Humedad (%)": "75",
+        "Viento (km/h)": "10",
+        "Estado del Tiempo": "Lluvia moderada"
+
+    },
+    {
+        "ID": 9,
+        "Ciudad" : "Tenerife",
+        "Temperatura (°C)" : "25",
+        "Humedad (%)": "65",
+        "Viento (km/h)": "22",
+        "Estado del Tiempo": "Soleado"
+
+    },
+    {
+        "ID": 10,
+        "Ciudad" : "Palma de Mallorca",
+        "Temperatura (°C)" : "23",
+        "Humedad (%)": "55",
+        "Viento (km/h)": "16",
+        "Estado del Tiempo": "Parcialmente nublado"
+    }
+]
