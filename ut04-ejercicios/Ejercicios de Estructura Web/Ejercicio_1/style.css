@@ -1,0 +1,100 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+}
+#header img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+#nav-links {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+#nav-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+#nav-links a:not(:last-child)::after {
+    content: " | ";
+    color: white;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+#main {
+    width: 80%;
+}
+#nav-categories {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: center;
+}
+#nav-categories a {
+    text-decoration: none;
+    margin: 0 15px;
+    color: black;
+    font-weight: bold;
+}
+#video-section {
+    margin-top: 10px;
+    text-align: center;
+}
+#video-section video {
+    width: 100%;
+    max-width: 800px;
+}
+#section1, #section2, #section3 {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+#article1, #article2 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+#article1 img {
+    width: 40%;
+    height: auto;
+    margin-right: 20px;
+}
+#article2 img {
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+}
+#message {
+    text-align: center;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 20px;
+    background-color: #eee;
+}
+#footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-box {
+    width: 45%;
+}
