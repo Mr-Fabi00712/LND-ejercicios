@@ -1,0 +1,66 @@
+/* Estilos generales para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 600px; /* Ajusta el tamaño según sea necesario */
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Estilos para las celdas */
+td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+/* Colores de texto por fila */
+.teal {
+    color: teal;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.orange {
+    color: orange;
+}
+
+.purple {
+    color: purple;
+}
+
+.olive {
+    color: olive;
+}
+
+.fuchsia {
+    color: fuchsia;
+}
+
+.green {
+    color: green;
+}
+
+/* Colores de fondo por columna */
+tr td:nth-child(1) {
+    background-color: white;
+}
+
+tr td:nth-child(2) {
+    background-color: red;
+}
+
+tr td:nth-child(3) {
+    background-color: green;
+}
+
+tr td:nth-child(4) {
+    background-color: blue;
+}

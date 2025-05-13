@@ -1,0 +1,30 @@
+/* Estilos para los títulos h2 dentro de .noticia */
+.noticia h2 {
+    color: darkblue;
+    font-family: Georgia, serif;
+}
+
+/* Estilo para el primer párrafo de cada noticia (en cursiva) */
+.noticia p:first-child {
+    font-style: italic;
+}
+
+/* Estilo para los enlaces dentro de .noticia (subrayado solo al hover) */
+.noticia a {
+    text-decoration: none; /* Sin subrayado por defecto */
+}
+
+.noticia a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Estilo para enlaces con clase .externo */
+.noticia a.externo {
+    color: red;
+}
+
+/* Asegura que los enlaces externos abran en otra pestaña (ya definido en HTML con target="_blank") */
+.noticia a.externo {
+    color: blueviolet;
+    /* No se necesita agregar más CSS para target="_blank", ya que es un atributo HTML */
+}
