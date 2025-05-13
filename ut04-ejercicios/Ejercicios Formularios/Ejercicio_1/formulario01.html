@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 01</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset>
+            <legend>Seleccione un idioma</legend>
+            <input type="radio" name="idioma" value="idiomaingles">
+            <label>Inglés</label>
+            <br>
+            <input type="radio" name="idioma" value="idiomaaleman">
+            <label>Alemán</label>
+            <br>
+            <input type="radio" name="idioma" value="idiomafrances">
+            <label>Francés</label>
+            <br>
+        
+        
+        <label for="conector">Seleccione un conector:</label>
+        <br>
+        <select name="conector">
+            <option value="usb">USB</option>
+            <option value="paralelo">Paralelo</option>
+            <option value="ps2">PS2</option>
+        </select>
+        <br>
+        
+        <label>Nombre:</label>
+        <input type="text" name="nombre">
+        <br>
+
+        <label>Apellidos:</label>
+        <input type="text" name="apellidos">
+        <br><br>
+    </fieldset>
+    <fieldset>
+    
+        <legend>Indique sus preferencias</legend>
+
+        <select name="sexo" id="sexo" multiple>
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select>
+        <br>
+
+            <input type="checkbox" name="sexo" value="sexomujer">
+            <label>Mujer</label>
+            <br>
+            <input type="checkbox" name="sexo" value="sexohombre">
+            <label>Hombre</label>
+        <br>
+        
+        <label>Seleccione una fecha:</label>
+        <input type="date" name="fecha">
+        <br>
+    </fieldset>
+    </form>
+</body>
+</html>
+
