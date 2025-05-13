@@ -1,36 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="utf-8" />
-    <title>Tabla de Datos</title>
-    <link rel="stylesheet" href="estilo-tabla.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla Interactiva</title>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    thead {
+      background-color: #333;
+      color: white;
+    }
+
+    tbody tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-child(odd) {
+      background-color: #e0e0e0;
+    }
+
+    tbody tr:hover {
+      background-color: #ddd;
+    }
+
+    td:first-child, th:first-child {
+      font-weight: bold;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+    }
+  </style>
 </head>
 <body>
-    <table>
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Edad</th>
-                <th>Ciudad</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Ana</td>
-                <td>28</td>
-                <td>Madrid</td>
-            </tr>
-            <tr>
-                <td>Luis</td>
-                <td>35</td>
-                <td>Barcelona</td>
-            </tr>
-            <tr>
-                <td>María</td>
-                <td>22</td>
-                <td>Valencia</td>
-            </tr>
-        </tbody>
-    </table>
+
+  <table>
+    <thead>
+      <tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Ana</td><td>28</td><td>Madrid</td></tr>
+      <tr><td>Luis</td><td>35</td><td>Barcelona</td></tr>
+      <tr><td>María</td><td>22</td><td>Valencia</td></tr>
+    </tbody>
+  </table>
+
 </body>
 </html>
