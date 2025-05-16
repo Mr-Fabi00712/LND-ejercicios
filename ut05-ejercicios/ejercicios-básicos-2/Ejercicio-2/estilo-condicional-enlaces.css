@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  padding: 30px;
+}
+
+.navegacion ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navegacion li {
+  margin: 10px 0;
+}
+
+/* Enlace base */
+.navegacion a:link {
+  color: blue;
+  text-decoration: none;
+}
+
+/* Enlace visitado */
+.navegacion a:visited {
+  color: purple;
+}
+
+/* Enlace al pasar el cursor */
+.navegacion a:hover {
+  color: green;
+}
+
+/* Enlace activo (clic presionado) */
+.navegacion a:active {
+  color: red;
+}

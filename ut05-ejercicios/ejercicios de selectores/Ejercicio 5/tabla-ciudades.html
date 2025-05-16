@@ -2,12 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tabla Interactiva</title>
   <style>
     table {
-      width: 100%;
+      width: 60%;
+      margin: 40px auto;
       border-collapse: collapse;
+      font-family: Arial, sans-serif;
     }
 
     thead {
@@ -15,30 +16,31 @@
       color: white;
     }
 
-    tbody tr:nth-child(even) {
-      background-color: #f9f9f9;
+    th, td {
+      padding: 12px;
+      text-align: left;
     }
 
     tbody tr:nth-child(odd) {
+      background-color: #f9f9f9;
+    }
+
+    tbody tr:nth-child(even) {
       background-color: #e0e0e0;
     }
 
+    /* Siempre sobrescribe el fondo al pasar el ratón */
     tbody tr:hover {
-      background-color: #ddd;
+      background-color: #ddd !important;
+      cursor: pointer;
     }
 
-    td:first-child, th:first-child {
+    tbody td:first-child {
       font-weight: bold;
-    }
-
-    th, td {
-      padding: 10px;
-      text-align: left;
     }
   </style>
 </head>
 <body>
-
   <table>
     <thead>
       <tr><th>Nombre</th><th>Edad</th><th>Ciudad</th></tr>
@@ -47,8 +49,10 @@
       <tr><td>Ana</td><td>28</td><td>Madrid</td></tr>
       <tr><td>Luis</td><td>35</td><td>Barcelona</td></tr>
       <tr><td>María</td><td>22</td><td>Valencia</td></tr>
+      <tr><td>Pedro</td><td>30</td><td>Sevilla</td></tr>
+      <tr><td>Lucía</td><td>27</td><td>Bilbao</td></tr>
     </tbody>
   </table>
-
 </body>
 </html>
+

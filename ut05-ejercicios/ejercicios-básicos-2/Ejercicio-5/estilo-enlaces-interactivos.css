@@ -1,0 +1,28 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  padding: 40px;
+}
+
+.menu {
+  list-style-type: none; /* Quitar viñetas */
+  padding: 0;
+  max-width: 300px;
+  margin: auto;
+}
+
+.menu li {
+  margin-bottom: 15px; /* Espaciado entre elementos */
+}
+
+.menu a {
+  text-decoration: none;
+  color: #333; /* Gris oscuro */
+  font-size: 18px;
+  transition: color 0.3s, text-decoration 0.3s;
+}
+
+.menu a:hover {
+  color: #007bff; /* Azul brillante */
+  text-decoration: underline;
+}
